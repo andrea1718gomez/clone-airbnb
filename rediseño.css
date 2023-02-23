@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+
+.precios {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+.informasion{
+    border-bottom: 0.2rem solid black;
+}
+
+
+.delosprecios {
+    height: 6.5rem;
+    background-color: rgb(220, 220, 220, 0.4);
+    border-bottom: 0.2rem solid rgb(220, 220, 220, 0.4);
+}
+
+.logo {
+    width: 68;
+    height: 68;
+}
+
+.div2 {
+    display: flex;
+    background-color: white;
+    height: 14vh;
+    width: 100%;
+    border-bottom: 0.2rem solid gainsboro;
+}
+.iconos{
+    background-color:white;
+    width: 100%;
+}
+
+.buscar {
+    margin-left: 12rem;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+    background-color: white;
+    height: 8vh;
+    width: 50rem;
+    border-radius: 3rem;
+    border-color: gainsboro;
+    cursor: pointer;
+    border-right: 5rem;
+}
+
+.espacio {
+    margin-left: 5rem;
+    border-style: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.botondefiltro{
+    width: 2.7rem;
+    height: 2.7rem;
+    padding-top: 0.9rem;
+}
+
+.boton{
+    border-style: none;
+    background-color: white;
+}
+
+.lupa{
+    width: 2.7rem;
+    height: 2.7rem;
+    border-radius: 1rem;
+    background-color: red;
+}
+.iconomundo{
+    width: 2.4rem;
+    height: 2.4rem;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-left: 1.3rem;
+}
+.persona{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 2.6rem;
+    border: 1rem;
+    border-radius: 2rem;
+    position: absolute;
+}
+.perfil{
+    border-radius: 2.5rem;
+    border:0.1rem;
+    height:5rem;
+    width: 9rem;
+    margin-left: 1rem;
+    background-color:white;
+    cursor: pointer;
+    border-style:solid;
+    border-color: gray;
+}
+.lineas{
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-right:3rem;
+    margin-top: 0.6rem;
+}
+
+
+.delspan{
+    margin-left: 3rem;
+    border-right: 9rem;
+}
+.lago{
+    border-style: none;
+    width: 2.9rem;
+    height: 2.9rem;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    color: gainsboro;
+    cursor: pointer;
+}
+
+.castillos{
+    border-style:none;
+    width: 2.9rem;
+    height: 2.9rem;
+    margin-left: 4rem;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+.isla{
+    border-style: none;
+    width: 2.9rem;
+    height: 2.9rem;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+.surf{
+    border-style: none;
+    width: 2.9rem;
+    height: 2.9rem;
+    margin-left: 4.3rem;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+.campamentos{
+    border-style: none;
+    width: 2.9rem;
+    height: 2.9rem;
+    margin-left: 3.5rem;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+.casas_compartidas{
+    border-style: none;
+    width:2.9rem;
+    height:2.9rem;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+.vistas{
+    border-style: none;
+    width: 2.9rem;
+    height: 2.9rem;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+.pisinas{
+    border-style: none;
+    width: 2.9rem;
+    height: 2.9rem;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+.foltros{
+    background-color:white;
+    width: 9rem;
+    height: 5rem;
+    margin-left: 9rem;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    border-style:solid;
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+}
+.comtenedores{
+    height: 43rem;
+    width: 31rem;
+    background-color:white;
+    margin-left: 3.6rem;
+    margin-top: 5rem;
+}
+.imagenes{
+    height: 33rem;
+    width: 30rem;
+    border-radius: 2rem;
+}
+.comtexto{
+    margin-left: 1rem;
+    font-size: 1.7rem;
+}
+p{
+    color:gray
+}
+.footer{
+    width: 100%;
+    height: 8vh;
+    font-size: 1.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: crimson;
+    position:sticky;
+}
+.direccion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    justify-items:center;
+}
