@@ -15,7 +15,8 @@ html {
     text-align: center;
     padding-top: 1rem;
 }
-.informasion{
+
+.informasion {
     border-bottom: 0.2rem solid black;
 }
 
@@ -38,17 +39,18 @@ html {
     width: 100%;
     border-bottom: 0.2rem solid gainsboro;
 }
-.iconos{
-    background-color:white;
+
+.iconos {
+    background-color: white;
     width: 100%;
 }
 
 .buscar {
-    margin-left: 12rem;
-    margin-top: 1rem;
-    margin-bottom: 0.2rem;
+    margin-left: 20rem;
+    margin-top: 2rem;
+    /* margin-bottom: 0.2rem; */
     background-color: white;
-    height: 8vh;
+    height: 6vh;
     width: 50rem;
     border-radius: 3rem;
     border-color: gainsboro;
@@ -57,37 +59,42 @@ html {
 }
 
 .espacio {
-    margin-left: 5rem;
+    margin-left: 7rem;
     border-style: none;
     background-color: white;
     cursor: pointer;
 }
 
-.botondefiltro{
+.botondefiltro {
     width: 2.7rem;
     height: 2.7rem;
     padding-top: 0.9rem;
 }
 
-.boton{
+.boton {
     border-style: none;
+    /* margin-left: 2rem; */
     background-color: white;
+    padding: 1rem 1rem 2rem 1rem;
 }
 
-.lupa{
+.lupa {
     width: 2.7rem;
     height: 2.7rem;
+    margin-left: 4rem;
     border-radius: 1rem;
-    background-color: red;
+    background-color: rgb(238, 11, 11);
 }
-.iconomundo{
-    width: 2.4rem;
-    height: 2.4rem;
-    background-color: rgb(255, 255, 255);
+
+.iconomundo {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: white;
     cursor: pointer;
-    margin-left: 1.3rem;
+    margin-left: 2rem;
 }
-.persona{
+
+.persona {
     width: 3rem;
     height: 3rem;
     margin-left: 2.6rem;
@@ -95,30 +102,33 @@ html {
     border-radius: 2rem;
     position: absolute;
 }
-.perfil{
+
+.perfil {
     border-radius: 2.5rem;
-    border:0.1rem;
-    height:5rem;
+    border: 0.1rem;
+    height: 5rem;
     width: 9rem;
-    margin-left: 1rem;
-    background-color:white;
+    margin-left: 2rem;
+    background-color: white;
     cursor: pointer;
-    border-style:solid;
+    border-style: solid;
     border-color: gray;
 }
-.lineas{
+
+.lineas {
     width: 1.4rem;
     height: 1.4rem;
-    margin-right:3rem;
+    margin-right: 3rem;
     margin-top: 0.6rem;
 }
 
 
-.delspan{
+.delspan {
     margin-left: 3rem;
     border-right: 9rem;
 }
-.lago{
+
+.lago {
     border-style: none;
     width: 2.9rem;
     height: 2.9rem;
@@ -128,8 +138,8 @@ html {
     cursor: pointer;
 }
 
-.castillos{
-    border-style:none;
+.castillos {
+    border-style: none;
     width: 2.9rem;
     height: 2.9rem;
     margin-left: 4rem;
@@ -137,7 +147,7 @@ html {
     cursor: pointer;
 }
 
-.isla{
+.isla {
     border-style: none;
     width: 2.9rem;
     height: 2.9rem;
@@ -145,7 +155,8 @@ html {
     margin-top: 3rem;
     cursor: pointer;
 }
-.surf{
+
+.surf {
     border-style: none;
     width: 2.9rem;
     height: 2.9rem;
@@ -154,7 +165,7 @@ html {
     cursor: pointer;
 }
 
-.campamentos{
+.campamentos {
     border-style: none;
     width: 2.9rem;
     height: 2.9rem;
@@ -163,23 +174,7 @@ html {
     cursor: pointer;
 }
 
-.casas_compartidas{
-    border-style: none;
-    width:2.9rem;
-    height:2.9rem;
-    margin-left: 2rem;
-    margin-top: 3rem;
-    cursor: pointer;
-}
-.vistas{
-    border-style: none;
-    width: 2.9rem;
-    height: 2.9rem;
-    margin-left: 2rem;
-    margin-top: 3rem;
-    cursor: pointer;
-}
-.pisinas{
+.casas_compartidas {
     border-style: none;
     width: 2.9rem;
     height: 2.9rem;
@@ -188,42 +183,67 @@ html {
     cursor: pointer;
 }
 
-.foltros{
-    background-color:white;
+.vistas {
+    border-style: none;
+    width: 2.9rem;
+    height: 2.9rem;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+.pisinas {
+    border-style: none;
+    width: 2.9rem;
+    height: 2.9rem;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+.foltros {
+    background-color: white;
     width: 9rem;
     height: 5rem;
     margin-left: 9rem;
     margin-top: 3rem;
     border-radius: 1rem;
-    border-style:solid;
+    border-style: solid;
     cursor: pointer;
 }
 
-main{
+main {
     display: flex;
     flex-wrap: wrap;
-    flex-direction:row;
+    flex-direction: row;
 }
-.comtenedores{
-    height: 43rem;
-    width: 31rem;
+
+.comtenedores {
+    /* display: flex; */
+    height: 40rem;
+    width: 28rem;
     background-color:white;
-    margin-left: 3.6rem;
-    margin-top: 5rem;
+    margin-left: 2rem;
+    /* margin-top: 1rem; */
+    /* justify-content: space-around; */
 }
-.imagenes{
-    height: 33rem;
-    width: 30rem;
+
+.imagenes {
+    height: 29rem;
+    width: 28rem;
     border-radius: 2rem;
 }
-.comtexto{
+
+.comtexto {
     margin-left: 1rem;
     font-size: 1.7rem;
 }
-p{
-    color:gray
+
+p {
+    color: gray
 }
-.footer{
+
+.footer {
     width: 100%;
     height: 8vh;
     font-size: 1.4rem;
@@ -232,11 +252,20 @@ p{
     align-items: center;
     justify-content: space-around;
     background-color: crimson;
-    position:sticky;
+    position: sticky;
 }
-.direccion{
+
+.direccion {
     display: flex;
     flex-direction: row;
-    flex-wrap:wrap ;
-    justify-items:center;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+
+.star {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    align-items: flex-end;
+    /* margin-left: 9rem; */
+    font-size: 1rem;
 }
