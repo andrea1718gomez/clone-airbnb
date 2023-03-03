@@ -215,7 +215,7 @@ html {
 main {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    /* flex-direction: row; */
 }
 
 .comtenedores {
@@ -263,8 +263,6 @@ p {
 }
 
 .star {
-    /* display: flex; */
-    /* flex-wrap: wrap; */
     align-items: flex-end;
     /* margin-left: 9rem; */
     font-size: 1rem;
