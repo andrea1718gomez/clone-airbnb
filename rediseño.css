@@ -46,7 +46,7 @@ html {
 }
 
 .buscar {
-    margin-left: 20rem;
+    margin-left: 30rem;
     margin-top: 2rem;
     /* margin-bottom: 0.2rem; */
     background-color: white;
@@ -75,7 +75,7 @@ html {
     border-style: none;
     /* margin-left: 2rem; */
     background-color: white;
-    padding: 1rem 1rem 2rem 1rem;
+    padding: 2rem 2rem 2rem 2rem;
 }
 
 .lupa {
@@ -205,7 +205,7 @@ html {
     background-color: white;
     width: 9rem;
     height: 5rem;
-    margin-left: 9rem;
+    margin-left: 4rem;
     margin-top: 3rem;
     border-radius: 1rem;
     border-style: solid;
@@ -223,7 +223,7 @@ main {
     height: 40rem;
     width: 28rem;
     background-color:white;
-    margin-left: 2rem;
+    margin-left: 4rem;
     /* margin-top: 1rem; */
     /* justify-content: space-around; */
 }
